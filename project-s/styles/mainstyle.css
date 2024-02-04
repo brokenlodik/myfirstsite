@@ -145,7 +145,7 @@ h2{
 	padding-top: 100px;
 	padding-bottom: 80px;
 	width: 100%;
-	background-image: -webkit-linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url(bgglav.jpg);
+	background-image: -webkit-linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url(styles\bgglav.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
