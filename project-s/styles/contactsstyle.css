@@ -1,0 +1,221 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+button{
+	all: unset;
+  	cursor: pointer;
+}
+button:active { 
+	border-style: outset;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 22px;
+	word-spacing: 7px;
+	font-style: normal;
+	font-weight: 300;
+	color: #E6E2DD;
+}
+
+.notbutton a{
+	text-align: center;
+	color: #E6E2DD;
+	display: block;
+	text-decoration: none;
+	position: relative;
+	max-width: max-content;
+}
+
+.notbutton a:hover{
+	color: #E6E2DD;
+}
+
+.notbutton a::before{
+	content: "";
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: #E6E2DD;
+	transform: scaleX(0);
+	transition: transform 0.3s ease;
+}
+
+.notbutton a:hover::before{
+	transform: scaleX(1);
+}
+
+strong{
+	font-weight: 500;
+}
+
+em{
+	font-style: italic;
+}
+
+li{
+    color: #373A36;
+    list-style-type: disc;
+}
+
+li span{
+    color:#D48166;
+}
+
+h1{
+	font-size: 2em;
+	font-weight: 400;
+	padding-bottom: 15px;
+}
+
+h2{
+	font-size: 1.5em;
+	font-weight: 300;
+}
+
+.stickycap{
+	position: sticky;
+	top: 0;
+}
+
+.cap{
+	border: 1px solid black;
+	padding: 10px 20px 10px 20px;
+	width: 100%;
+	min-height: auto;
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+	column-gap: 10px;
+	text-align: center;
+	font-weight: 300;
+	align-items: center;
+	background-color:#D48166;
+}
+
+.cap a{
+	text-decoration: none;
+	color:#E6E2DD
+}
+
+.contacts{
+	padding: 40px 20px 5px 20px;
+	text-align: center;
+    font-weight: 400;
+	font-size: 32px;
+	color:#D48166;
+}
+
+.contactsbutton{
+	width: 20%;
+	height: 80px;
+	border-radius: 10%;
+	background: #D48166;
+	display: block;
+	border: 2px solid #373A36;
+	margin-left: auto;
+	margin-right: auto;
+	color: #E6E2DD;
+	margin-top: 15px;
+	font-size: 24px;
+	font-weight: 300;
+	letter-spacing: 5px;
+	text-align: center;
+}
+
+.contactsbutton:hover{
+	background: #373A36;
+	transition-duration: 35ms;
+}
+
+.headerfooterlogo{
+	font-weight: 100;
+	font-size: 30px;
+	text-align: left;
+}
+
+.footercont{
+	background-color: #373A36;
+	padding: 10px 20px;
+    color: #E6E2DD;
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.footerh2{
+	font-weight: 400;
+	font-size: 18px;
+	padding-bottom: 10px;
+}
+
+.boxfooter1{
+	text-align: start;
+	font-size: 16px;
+	font-weight: 100;
+}
+
+.boxfooter3{
+	text-align: end;
+	font-size: 16px;
+	font-weight: 100;
+}
